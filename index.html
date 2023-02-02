@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Admin Dashboard v1</title>
+        <link rel="stylesheet" href="css/style.css" />
+        <!-- font awesome -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" />
+    </head>
+    <body>
+        <div class="container">
+            <!-- Sidebar -->
+            <nav>
+                <ul>
+                    <li>
+                        <a href="#" class="logo">
+                            <img src="img/bukan-perusahaan.png" />
+                            <span>Admin</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-menu">
+                            <i class="fa-solid fa-gauge"></i>
+                            <span class="nav-item">Dashboard</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-menu">
+                            <i class="fa-solid fa-message"></i>
+                            <span class="nav-item">Messages</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-menu">
+                            <i class="fa-solid fa-file-lines"></i>
+                            <span class="nav-item">Report</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-menu">
+                            <i class="fa-solid fa-chart-column"></i>
+                            <span class="nav-item">Attendanc</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-menu">
+                            <i class="fa-solid fa-gear"></i>
+                            <span class="nav-item">Setting</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-logout">
+                            <i class="fa-solid fa-right-from-bracket"></i>
+                            <span class="nav-item">Log Out</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <!-- Sidebar End -->
+
+            <!-- Main -->
+            <sectio class="main">
+                <div class="main-top">
+                    <h2>Dashboard</h2>
+                    <i class="fa-solid fa-user-gear"> </i>
+                </div>
+                <div class="users">
+                    <div class="card">
+                        <img src="img/user-2.png" />
+                        <h4>Sam David</h4>
+                        <p>Quality Assurance</p>
+                        <div class="per">
+                            <table>
+                                <tr>
+                                    <td><span>85%</span></td>
+                                    <td><span>78%</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Month</td>
+                                    <td>Year</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <button>Profile</button>
+                    </div>
+                    <div class="card">
+                        <img src="img/user-1.png" />
+                        <h4>Balbina Kheer</h4>
+                        <p>UI/UX Designer</p>
+                        <div class="per">
+                            <table>
+                                <tr>
+                                    <td><span>82%</span></td>
+                                    <td><span>90%</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Month</td>
+                                    <td>Year</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <button>Profile</button>
+                    </div>
+                    <div class="card">
+                        <img src="img/user-3.png" />
+                        <h4>Salina Michael</h4>
+                        <p>Documentation</p>
+                        <div class="per">
+                            <table>
+                                <tr>
+                                    <td><span>71%</span></td>
+                                    <td><span>94%</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Month</td>
+                                    <td>Year</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <button>Profile</button>
+                    </div>
+                    <div class="card">
+                        <img src="img/user-4.png" />
+                        <h4>Baban John</h4>
+                        <p>Programmer</p>
+                        <div class="per">
+                            <table>
+                                <tr>
+                                    <td><span>78%</span></td>
+                                    <td><span>83%</span></td>
+                                </tr>
+                                <tr>
+                                    <td>Month</td>
+                                    <td>Year</td>
+                                </tr>
+                            </table>
+                        </div>
+                        <button>Profile</button>
+                    </div>
+                </div>
+                <section class="attendance">
+                    <div class="attendance-list">
+                        <h1>Attendance List</h1>
+                        <table class="table">
+                            <thead>
+                                <tr>
+                                    <th>ID</th>
+                                    <th>Name</th>
+                                    <th>Depart</th>
+                                    <th>Date</th>
+                                    <th>Join Time</th>
+                                    <th>Logout Time</th>
+                                    <th>Details</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td>01</td>
+                                    <td>Sam David</td>
+                                    <td>Quality Assurance</td>
+                                    <td>03-24-22</td>
+                                    <td>8:00 AM</td>
+                                    <td>3:00 PM</td>
+                                    <td><button>View</button></td>
+                                </tr>
+                                <tr class="active">
+                                    <td>02</td>
+                                    <td>Balbina Kheer</td>
+                                    <td>UI/UX Designer</td>
+                                    <td>02-15-22</td>
+                                    <td>8:00 AM</td>
+                                    <td>3:00 PM</td>
+                                    <td><button>View</button></td>
+                                </tr>
+                                <tr>
+                                    <td>03</td>
+                                    <td>Salina Michael</td>
+                                    <td>Documentation</td>
+                                    <td>05-20-22</td>
+                                    <td>8:00 AM</td>
+                                    <td>3:00 PM</td>
+                                    <td><button>View</button></td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </section>
+            </sectio>
+            <!-- Main End -->
+        </div>
+        <script src="js/app.js"></script>
+    </body>
+</html>
